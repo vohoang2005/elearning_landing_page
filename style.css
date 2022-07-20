@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+.skilled {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: hsl(233, 54%, 16%);
+    font-size: 3rem;
+}
+.getstarted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid hsl(233, 54%, 16%) 1px;
+    border-radius: 2rem;
+    background-color: hsl(233, 54%, 16%);
+    color: hsl(0,0%,100%);
+    width: 167px; height: 56px;
+    font-size: 20px;
+  
+}
