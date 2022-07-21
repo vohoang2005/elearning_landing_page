@@ -25,7 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+## Desktop
+![active](https://user-images.githubusercontent.com/37889335/180175151-e3e415ba-cf03-4b32-8c06-a05ae10f5f66.PNG)
+## Tablet
+![tablet](https://user-images.githubusercontent.com/37889335/180175185-e671ea7a-1449-45ed-b14c-b461d0b1671e.PNG)
+## Phone
+![phone](https://user-images.githubusercontent.com/37889335/180175222-91ef805f-db3c-4058-aa8d-191ef768b0f9.PNG)
 
 ### Links
 
