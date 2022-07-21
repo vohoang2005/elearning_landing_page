@@ -1,115 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <title>Frontend Mentor | Skilled e-learning landing page</title>
 </head>
+
 <body>
-  <main>
-    <div class="nav">
-      <nav>
-        <h4 class="skilled">skilled</h4>
-      </nav>
-      <nav>
-        <h4 class="getstarted1">Get Started</h4>
-      </nav>
+  <nav class="top">
+    <img src="./assets/logo-dark.svg" alt="" draggable="false" class="top__logo">
+    <button class="top__button">Get Started</button>
+  </nav>
+
+  <header class="header">
+    <section class="header__header">
+      <h1 class="header__title">Maximize skill, minimize budget</h1>
+      <p class="header__description">
+        Our modern courses across a range of in-demand skills will give you the 
+        knowledge you need to live the life you want.
+      </p>
+      <button class="header__button">Get Started</button>
+    </section>
+    <div class="header__hero-container" role="img" aria-label="29000 members, 1451 course hours">
+      <img src="./assets/image-hero-mobile@2x.png" alt="" class="header__hero">
     </div>
-    <div class="container">
-         <article class="firstarticle">
-          <h2>Maximize skill, minimize budget</h2>
-          <p>Our modern courses across a range of in-demand skills will give you the 
-            knowledge you need to live the life you want.</p>
-            <p><h4 class="getstarted2">Get Started</h4></p>
-            <picture class="picture">
-              <source media="(min-width: 640px)" srcset="./assets/image-hero-desktop.png">
-              <img src="./assets/image-hero-tablet.png" alt="tablet">
-            </picture>
-        </article>
-      </div>
+  </header>
+
+  <main>
+    <ul class="courses">
+      <li class="courses__header">
+        <h2 class="courses__title">Check out our most popular courses!</h2>
+      </li>
+
+      <li class="courses__course">
+        <img src="./assets/icon-animation.svg" alt="" draggable="false" class="courses__logo">
+        <h3 class="courses__course-title">Animation</h3>
+        <p class="courses__course-description">
+          Learn the latest animation techniques to create stunning motion 
+          design and captivate your audience.
+        </p>
+        <button class="courses__button">Get Started</button>
+      </li>
+
+      <li class="courses__course">
+        <img src="./assets/icon-design.svg" alt="" draggable="false" class="courses__logo">
+        <h3 class="courses__course-title">Design</h3>
+        <p class="courses__course-description">
+          Create beautiful, usable interfaces to help shape the future of 
+          how the web looks.
+        </p>
+        <button class="courses__button">Get Started</button>
+      </li>
       
-    <section class="section">
-      <article class="card">
-        <div class="content">
-          Check out our most popular courses!
-        </div>
-      </article>
+      <li class="courses__course">
+        <img src="./assets/icon-photography.svg" alt="" draggable="false" class="courses__logo">
+        <h3 class="courses__course-title">Photography</h3>
+        <p class="courses__course-description">
+          Explore critical fundamentals like lighting, composition, and focus 
+          to capture exceptional photos.
+        </p>
+        <button class="courses__button">Get Started</button>
+      </li>
 
-      <article class="card">
-        <div class="content">
-          <h4>
-            Animation
-          </h4>
-          <p>
-            Learn the latest animation techniques to create stunning motion 
-            design and captivate your audience.
-            Get Started
-          </p>
-        </div>
-      </article>
+      <li class="courses__course">
+        <img src="./assets/icon-crypto.svg" alt="" draggable="false" class="courses__logo">
+        <h3 class="courses__course-title">Crypto</h3>
+        <p class="courses__course-description">
+          All you need to know to get started investing in crypto. Go from beginner 
+          to advanced with this 54 hour course.
+        </p>
+        <button class="courses__button">Get Started</button>
+      </li>
 
-      <article class="card">
-        <div class="content">
-          <h4>
-            Design
-          </h4>
-          <p>
-            Create beautiful, usable interfaces to help shape the future of 
-            how the web looks.
-            Get Started
-          </p>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="content">
-          <h4>
-            Photography
-          </h4>
-          <p>
-            Explore critical fundamentals like lighting, composition, and focus 
-            to capture exceptional photos.
-            Get Started
-          </p>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="content">
-          <h4>
-            Crypto
-          </h4>
-          <p>
-            All you need to know to get started investing in crypto. Go from beginner 
-            to advanced with this 54 hour course.
-            Get Started
-          </p>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="content">
-          <h4>
-            Business
-          </h4>
-          <p>
-            A step-by-step playbook to help you start, scale, and sustain your business 
-            without outside investment.
-            Get Started
-          </p>
-        </div>
-      </article>
-    </section> 
-
+      <li class="courses__course">
+        <img src="./assets/icon-business.svg" alt="" draggable="false" class="courses__logo">
+        <h3 class="courses__course-title">Business</h3>
+        <p class="courses__course-description">
+          A step-by-step playbook to help you start, scale, and sustain your business 
+          without outside investment.
+        </p>
+        <button class="courses__button">Get Started</button>
+      </li>
+    </ul>
   </main>
 
-  <!-- <footer>
-    <div class="started1"><h4>Get Started</h4></div>
-  </footer> -->
-
-
+  <footer class="footer">
+    <img src="./assets/logo-light.svg" alt="" draggable="false" class="footer__logo">
+    <button class="footer__button">Get Started</button>
+    <div class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></p>
+    </footer>
+  </div>
 </body>
+
 </html>
